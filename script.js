@@ -5,7 +5,7 @@ for (let i = 0; i < totalButton.length; i++) {
     // button making soun
 
     var key = this.innerHTML;
-    soundAnimatio(key,this)
+    soundAnimatio(key)
 
     // button animation
     this.classList.add('button-animation')
@@ -16,11 +16,11 @@ for (let i = 0; i < totalButton.length; i++) {
   
     
     
-    console.log(this)
+
 }
 
 function soundAnimatio(key){
-  switch (key,this) {
+  switch (key) {
     case "w": 
       new Audio("sounds/tom-1.mp3").play();
       this.backgroundColor = 'blue'
