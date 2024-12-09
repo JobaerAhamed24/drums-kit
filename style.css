@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #283149;
+    color: white;
+
+}
+.grid-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin: 130px 0px;
+}
+.grid-box{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 5px;
+    border: 10px solid #404B69;
+    font-size: 80px;
+    cursor: pointer;
+    font-family: "Arvo", cursive;
+    color: #DA0463;
+    text-shadow: 3px 0px #DBEDF3;
+    font-weight: 900;
+    
+}
+.main-container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title{
+    margin: 80px 0px;
+    
+}
+.title h1{
+    color: #DBEDF3;
+    font-size: 5rem;
+    text-shadow: 3px 0px #DA0463, 0 0 3px cyan, 0 0 10px cyan;
+    font-family: "Arvo", cursive;
+    
+}
+.button-animation{
+    font-size: 90px;
+    box-shadow: 0px 0px 20px #DBEDF3 ;
+}
+
+
+.grid-box:nth-child(1){
+    background-image: url("images/crash.png");
+    background-position: center;
+    background-size:100px 100px;
+    background-repeat: no-repeat;
+}
+.grid-box:nth-child(2){
+    background-image: url("images/kick.png");
+    background-position: center;
+    background-size:100px 100px;
+    background-repeat: no-repeat;
+}
+.grid-box:nth-child(3){
+    background-image: url("images/snare.png");
+    background-position: center;
+    background-size:100px 100px;
+    background-repeat: no-repeat;
+}
+.grid-box:nth-child(4){
+    background-image: url("images/tom1.png");
+    background-position: center;
+    background-size:100px 100px;
+    background-repeat: no-repeat;
+}
+.grid-box:nth-child(5){
+    background-image: url("images/tom2.png");
+    background-position: center;
+    background-size:100px 100px;
+    background-repeat: no-repeat;
+}
+.grid-box:nth-child(6){
+    background-image: url("images/tom3.png");
+    background-position: center;
+    background-size:100px 100px;
+    background-repeat: no-repeat;
+}
+.grid-box:nth-child(7){
+    background-image: url("images/tom4.png");
+    background-position: center;
+    background-size:100px 100px;
+    background-repeat: no-repeat;
+}
