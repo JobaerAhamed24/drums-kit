@@ -11,17 +11,19 @@ body{
 .grid-container{
     /* display: flex;
     justify-content: center; */
-    /* gap: 20px;
-    align-items: center; */
+    gap: 20px;
+    align-items: center;
     margin: 130px 0px;
+    padding: 10px;
+    
 }
 .grid-box{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background-color: white;
     border-radius: 5px;
     border: 10px solid #404B69;
-    font-size: 80px;
+    font-size: 70px;
     cursor: pointer;
     font-family: "Arvo", cursive;
     color: #DA0463;
